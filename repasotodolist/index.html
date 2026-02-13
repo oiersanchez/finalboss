@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List JSON</title>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <main>
+        <h1>Mi ToDo List</h1>
+
+        <div class="controls">
+            <button id="cargarTareas">Cargar tareas</button>
+            <button id="agregarTarea">Agregar tarea</button>
+        </div>
+<label>Filtrar Estado</label>
+<select id="filtrarEstado">
+    <option value="Todos">Todos</option>
+    <option value="Sin empezar">Sin empezar</option>
+    <option value="Empezada">Empezada</option>
+    <option value="Terminada">Terminada</option>
+</select>
+
+<label>Filtrar Prioridad</label>
+<select id="filtrarPrioridad">
+    <option value="Todos">Todos</option>
+    <option value="Alta">Alta</option>
+    <option value="Media">Media</option>
+    <option value="Baja">Baja</option>
+</select>
+
+<input type="text" id="buscarDescripcion" placeholder="Buscar por descripción...">
+
+        <table id="tablaTareas">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Descripción</th>
+                    <th>Estado</th>
+                    <th>Prioridad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="listaTareas">
+                <!-- Aquí se cargarán las tareas dinámicamente -->
+            </tbody>
+        </table>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="js/myscript.js"></script>
+</body>
+</html>

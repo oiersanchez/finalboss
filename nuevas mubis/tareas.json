@@ -1,0 +1,26 @@
+[
+	{
+		"id": "1",
+		"descripcion": "Estudiar Javascript",
+		"estado": "Sin empezar",
+        "prioridad": "Alta"
+	},
+	{
+		"id": "2",
+		"descripcion": "Estudiar PHP",
+		"estado": "Empezada",
+        "prioridad": "Alta"
+	},
+	{
+		"id": "3",
+		"descripcion": "Practicar Tailwindcss",
+		"estado": "Terminada",
+        "prioridad": "Alta"
+	},
+	{
+		"id": "4",
+		"descripcion": "Empezar tareas Reto",
+		"estado": "Empezada",
+        "prioridad": "Media"
+	}
+]

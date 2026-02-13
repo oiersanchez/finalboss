@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "pregunta": "¿Cómo se llama el pueblo donde transcurre Stranger Things?",
+      "opciones": ["Hawkins", "Riverdale", "Twin Peaks", "Springfield"],
+      "correcta": 0
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Qué juego juegan la cuadrilla al principio de la serie?",
+      "opciones": ["Monopoly", "Scrabble", "Dungeons & Dragons", "Risk"],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Cómo se llama el mundo paralelo?",
+      "opciones": ["El Otro Lado", "El Upside Down", "La Dimensión X", "El Vacío"],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué número identifica a Eleven?",
+      "opciones": ["007", "011", "013", "008"],
+      "correcta": 1
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Qué comida obsesiona a Eleven?",
+      "opciones": ["Pizza", "Hamburguesas", "Gofres", "Helado"],
+      "correcta": 2
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Cómo se llama el sheriff del pueblo?",
+      "opciones": ["Jim Hopper", "Bob Newby", "Murray Bauman", "Powell"],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Qué actor interpreta a Mike Wheeler?",
+      "opciones": ["Gaten Matarazzo", "Caleb McLaughlin", "Finn Wolfhard", "Noah Schnapp"],
+      "correcta": 2
+    },
+    {
+      "id": 8,
+      "pregunta": "¿En qué década se ambienta la serie?",
+      "opciones": ["1970s", "1980s", "1990s", "2000s"],
+      "correcta": 1
+    },
+    {
+      "id": 9,
+      "pregunta": "¿Cómo se llama el hermano de Mike?",
+      "opciones": ["Steve", "Jonathan", "Billy", "No tiene hermano"],
+      "correcta": 3
+    },
+    {
+      "id": 10,
+      "pregunta": "¿En qué tienda trabaja Steve en la temporada 3?",
+      "opciones": ["Blockbuster", "Scoops Ahoy", "Radio Shack", "Family Video"],
+      "correcta": 1
+    }
+]

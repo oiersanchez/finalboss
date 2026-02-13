@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "autor": "María García",
+        "texto": "Este sistema de comentarios es genial, muy fácil de usar y con buenas funcionalidades.",
+        "votos": 8,
+        "fecha": "2026-02-12 10:30"
+    },
+    {
+        "id": 2,
+        "autor": "Carlos Ruiz",
+        "texto": "No me gusta mucho el diseño, podría mejorar bastante.",
+        "votos": -5,
+        "fecha": "2026-02-12 11:15"
+    },
+    {
+        "id": 3,
+        "autor": "Ana López",
+        "texto": "La funcionalidad de votos es excelente. ¡Buen trabajo!",
+        "votos": 12,
+        "fecha": "2026-02-12 09:45"
+    },
+    {
+        "id": 4,
+        "autor": "Pedro Martínez",
+        "texto": "Funciona correctamente pero le faltan algunas características.",
+        "votos": 3,
+        "fecha": "2026-02-12 14:20"
+    },
+    {
+        "id": 5,
+        "autor": "Laura Sánchez",
+        "texto": "Me encanta poder ordenar los comentarios por diferentes criterios.",
+        "votos": 6,
+        "fecha": "2026-02-12 08:30"
+    },
+    {
+        "id": 6,
+        "autor": "Jorge Fernández",
+        "texto": "El buscador no funciona bien, debería buscar mejor.",
+        "votos": -2,
+        "fecha": "2026-02-12 13:10"
+    },
+    {
+        "id": 7,
+        "autor": "Sofía Romero",
+        "texto": "Muy útil para gestionar opiniones. Lo recomiendo totalmente.",
+        "votos": 9,
+        "fecha": "2026-02-12 15:00"
+    },
+    {
+        "id": 8,
+        "autor": "Diego Torres",
+        "texto": "Está bien, nada especial.",
+        "votos": 0,
+        "fecha": "2026-02-12 12:45"
+    }
+]

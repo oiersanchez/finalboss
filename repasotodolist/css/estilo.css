@@ -1,0 +1,110 @@
+/* Fuente general */
+body {
+    font-family: 'Neucha', cursive;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007D85;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007D85;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #009783;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #007D85;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.estado-SinEmpezar {
+    color: #e74c3c; /* rojo */
+    font-weight: bold;
+}
+
+.estado-Empezada {
+    color: #f39c12; /* naranja */
+    font-weight: bold;
+}
+
+.estado-Terminada {
+    color: #27ae60; /* verde */
+    font-weight: bold;
+}
+
+.prioridad-Alta {
+    font-weight: bold;
+    color: #c0392b;
+}
+
+.prioridad-Media {
+    font-weight: bold;
+    color: #f39c12;
+}
+
+.prioridad-Baja {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.actions button {
+    background-color: #555;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.actions button:hover {
+    background-color: #333;
+}
+
+.fila-placeholder {
+    background-color: #cce5ff;
+    height: 40px; /* ajusta según tu altura de fila */
+    border: 2px dashed #007bff;
+}

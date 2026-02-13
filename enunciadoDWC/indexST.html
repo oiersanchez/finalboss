@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PON AQUI TU NOMBRE</title>
+   <link rel="stylesheet" href="css/stylesST.css">
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Encabezado del quiz -->
+        <div class="encabezado">
+            <h1>STRANGER THINGS</h1>
+            <p>QUIZ DE LOS 80s</p>
+        </div>
+
+        <!-- Pantalla de inicio -->
+        <div id="pantalla-inicio">
+            <div class="caja-quiz">
+                <h2>
+                   ¿Cuánto sabes de la mejor serie de los últimos años?
+                </h2>
+                <p>
+                    10 preguntas sobre Stranger Things te esperan...
+                </p>
+                <button class="boton-iniciar">COMENZAR</button>
+            </div>
+        </div>
+
+        <!-- Pantalla del quiz (oculta al inicio) -->
+        <div id="pantalla-quiz" class="oculto">
+            <div class="caja-quiz">
+                <div id="todas-preguntas">
+                    <!-- Aquí se generarán las preguntas dinámicamente -->
+                    <!--te pongo un ejemplo de cómo deberías crear los elementos (qué clases meterles para conseguir los estilos del ejercicio)-->
+                    <!--
+                    
+                    <div class="bloque-pregunta">
+                        <div class="titulo-pregunta">
+                            <span class="numero-pregunta">Pregunta X:</span> Aqui ponemos la pregunta leída el JSON
+                        </div>
+                        <div class="opciones">
+                            <button class="boton-opcion" data-pregunta="0" data-opcion="0">respuesta 1</button><button class="boton-opcion" data-pregunta="0" data-opcion="1">respuesta 2</button><button class="boton-opcion" data-pregunta="0" data-opcion="2">respuesta 3</button><button class="boton-opcion" data-pre gunta="0" data-opcion="3">respuesta 4</button>
+                        </div>
+                    </div>
+                    
+                    
+                    -->
+                </div>
+                <button class="boton-enviar">
+                    COMPROBAR RESPUESTAS
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/myscriptJQuery.js"></script>
+</html>
